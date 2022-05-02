@@ -10,6 +10,10 @@ body{
 #bottom-navbar-container{
     backdrop-filter: blur(5px);
 }
+#bottom-navbar-container button{
+    color: #cb10e5;
+    border: 1px solid #cb10e5;
+}
 #bottom-navbar-container .container{
     justify-content: flex-start;
 }
