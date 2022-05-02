@@ -1,0 +1,107 @@
+
+body{
+    background: url(img/em.jpg) no-repeat;
+    color: #FFF;
+    text-decoration: none;
+}
+.primary-bg-color{
+    background: #252525;
+}
+.secondary-bg-color{
+    background: transparent;
+}
+.tertiary-bg-color{
+    background: #74483f ;
+}
+.light-bg-color{
+    background: #FCF5EB;
+}
+.dark-bg-color{
+    background: #101010;
+}
+.primary-color{
+    color: #cb10e5;
+}
+.secondary-color{
+    color: #626262;
+}
+.tertiary-color{
+    color: #76473f;
+}
+.light-color{
+    color: #eef1f6;
+}
+.dropdown-menu{
+    /* metade transparente: alpha = .5 */
+    background-color: rgba(255, 255, 255, .5) !important;
+}
+.list-group-item{    
+    /* metade transparente: alpha = .5 */
+    background-color: rgba(255, 255, 255, .5) !important;
+}
+
+/* NAV BAR */
+#bottom-navbar-container{
+    backdrop-filter: blur(5px);
+}
+#bottom-navbar-container .container{
+    justify-content: flex-start;
+}
+#bottom-navbar-container a{
+    font-weight: 900;
+    color: #ffe48f;
+    font-size: 21px;
+}
+#bottom-navbar-container #name{
+    text-align: center;
+    color: #7dc9c5;
+    font-weight: 700;
+    font-size: 20px;
+}
+#bottom-navbar-container button{
+    color: #cb10e5;
+    border: 1px solid #cb10e5;
+}
+#bottom-navbar-container button:focus{
+    text-decoration: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    font-size: 1.5em;
+}
+
+/* ABOUT GUSTA*/
+
+#Aboutgusta{
+    padding-top: 35vh;
+    padding-left: 50px;
+}
+#Aboutgusta h1{
+    color: #cb10e5;
+    font-weight: 800;
+}
+#Aboutgusta p{
+    color: #83c3f7;
+    font-size: 30px;
+    font-style: italic;
+}
+#Aboutgusta .list-group{
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* FOOTER */
+#footer{
+    text-align: center;
+    padding-top: 100px;
+}
+#copy{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+#copy span{
+    color: #7dc9c5;
+}
