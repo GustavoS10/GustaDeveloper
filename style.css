@@ -1,0 +1,92 @@
+
+body{
+    background: url(img/em.jpg) no-repeat;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -moz-background-size: cover;
+    color: #FFF;
+    text-decoration: none;
+}
+body,html {
+    min-height:100%;
+}
+.primary-color{
+    color: #cb10e5;
+}
+.dropdown-menu{
+    /* metade transparente: alpha = .5 */
+    background-color: rgba(255, 255, 255, .10) !important;
+}
+.list-group-item{    
+    /* metade transparente: alpha = .5 */
+    background-color: rgba(255, 255, 255, .10) !important;
+}
+
+/* NAV BAR */
+#bottom-navbar-container{
+    backdrop-filter: blur(5px);
+}
+#bottom-navbar-container .container{
+    justify-content: flex-start;
+}
+#bottom-navbar-container a{
+    font-weight: 900;
+    color: #ffe48f;
+    font-size: 21px;
+}
+#bottom-navbar-container #name{
+    text-align: center;
+    color: #7dc9c5;
+    font-weight: 700;
+    font-size: 20px;
+}
+#bottom-navbar-container button{
+    color: #cb10e5;
+    border: 1px solid #cb10e5;
+}
+#bottom-navbar-container button:focus{
+    text-decoration: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    font-size: 1.5em;
+}
+
+/* ABOUT GUSTA*/
+
+#Aboutgusta{
+    padding-top: 35vh;
+    padding-left: 50px;
+}
+#Aboutgusta h1{
+    color: #cb10e5;
+    font-weight: 800;
+}
+#Aboutgusta p{
+    color: #83c3f7;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 335px;
+}
+#Aboutgusta .list-group{
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* FOOTER */
+#footer{
+    text-align: center;
+    /* padding-top: 200px; */
+}
+#copy{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+#copy span{
+    color: #7dc9c5;
+}
