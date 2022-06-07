@@ -44,7 +44,7 @@ body{
 #rd h1{
     color: #808080;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #rd h2{
     color: #808080;
@@ -54,20 +54,27 @@ body{
 }
 
 #rd ul {
-  position:absolute;
+  position: absolute;
   top:55%;
   left:50%;
   transform:translate(-50%, -50%);
   display:flex;
   margin:0;
   padding:0;
-  padding-left: 125px;
+  margin-top: 65px;
 }
 
 #rd ul li {
   list-style:none;
   margin:0 5px;
-  padding: 20px;
+  padding: 40px 0;
+  border: none;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+#rd .list-group-item{
+    background-color: transparent !important;
 }
 
 #rd ul li a .bi {
