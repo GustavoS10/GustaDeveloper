@@ -10,20 +10,31 @@ h1{
 }
 
 /* NAV BAR */
-#bottom-navbar-container{
+#bottom-navbar-container2{
+    background-image: linear-gradient(to right, #38b2ac, #4db8b2, #5ebeb9, #6ec3bf, #7dc9c5);
+}
+#bottom-navbar-container, 
+#bottom-navbar-container2{
     backdrop-filter: blur(5px);
 }
-#bottom-navbar-container button{
+#bottom-navbar-container button, 
+#bottom-navbar-container2 button{
     color: #cb10e5;
     border: 1px solid #cb10e5;
 }
-#bottom-navbar-container .container{
+#bottom-navbar-container .container, 
+#bottom-navbar-container2 .container{
     justify-content: flex-start;
 }
 #bottom-navbar-container a{
     font-weight: 900;
     color: #ffe48f;
     font-size: 21px;
+}
+#bottom-navbar-container2 a{
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffe48f;
 }
 #bottom-navbar-container #name{
     text-align: center;
